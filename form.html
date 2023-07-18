@@ -12,7 +12,17 @@
     <form action="get">
 
         <label>Full Name</label>
-        <input type="text">
+        <input type="text" required minlength="4">
+
+        <br><br>
+
+        <label for="">Password</label>
+        <input type="password">
+
+        <br><br>
+
+        <label for="">Emali Address</label>
+        <input type="email" required>
         
         <br><br>
 
@@ -54,8 +64,20 @@
         <details>
             <summary>Terms and Conditions</summary>
 
-            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, cum sit! Ipsam animi in dolorem sequi ducimus quia alias voluptas debitis delectus enim aut, numquam facilis cum distinctio quod aliquam corrupti tempora accusantium aliquid nisi! Repellat eius, expedita natus velit non dolorum quia sit, sunt culpa minima, molestiae fugit quas! </p>
+            <p> Lorem ipsum <mark> sit, amet consectetur adipisicing elit.Maxime, cum sit! Ipsam animi in dolorem sequi </mark> ducimus quia alias voluptas debitis delectus enim aut, numquam facilis cum distinctio quod aliquam corrupti tempora accusantium aliquid nisi! Repellat eius, expedita natus velit non dolorum quia sit, sunt culpa minima, molestiae fugit quas! </p>
         </details>
+
+        <br><br>
+
+        <input type="checkbox" required>
+        <label for="">I accept Terms and Conditions</label>
+
+        <br><br>
+
+        <label for="image">Upload Passportsize Photo</label>
+        <input id="image" type="file" hidden>
+
+        <br><br>
 
         <button>Submit</button>
 
